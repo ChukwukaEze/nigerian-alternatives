@@ -1,5 +1,6 @@
 import React from "react";
 import products from "../../../products.json";
+import { ProductCard } from "./product";
 
 function Body() {
   return (
@@ -14,29 +15,10 @@ function Body() {
       <p className="block mt-10 text-[15px]">
         All products are priced in Nigerian Naira
       </p>
+      <hr className="my-6" />
       <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-2">
-        {products?.map((product) => {
-          return (
-            <div
-              key={product.company}
-              className="bg-green-50 h-[300px] w-[100%] md:w-[100%] p-4 rounded-[8px] relative"
-            >
-              <div className="relative h-[100%]">
-                <h3 className="text-[18px] font-bold">{product?.name}</h3>
-                <p className="text-[12px] mb-8">by: {product?.company}</p>
-                <p className="text-[15px] truncated-text">
-                  {product?.description}
-                </p>
-
-                <a
-                  href={product?.url}
-                  className="absolute bg-green text-white py-1 px-4 mt-8 rounded-md text-[15px] bottom-0"
-                >
-                  Try Product
-                </a>
-              </div>
-            </div>
-          );
+        {products?.map((product, index) => {
+          return <ProductCard key={index} {...product} />;
         })}
       </div>
     </section>
