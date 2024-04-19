@@ -1,7 +1,7 @@
 
 # Nigerian Alternatives
 
-Nigerian Alternatives allows you access to a collection of Naira priced Developer and Software Resources for scaling your Nigerian based business. This is an open source project, and is available on the web at Open [https://alternatives.ng](https://alternatives.ng)
+Nigerian Alternatives allows you access to a collection of Naira priced Developer and Software Resources for scaling your Nigerian based business. This is an open source project, and is available on the web: [Link](https://nigerian-alternatives-chukkywangs-projects.vercel.app/)
 
 
 ### Running this project locally
@@ -16,5 +16,5 @@ Nigerian Alternatives allows you access to a collection of Naira priced Develope
 
 ### Contributing
 
-To learn more about contributing to Nigerian Alternatives, please read [contributing.md]()
+To learn more about contributing to Nigerian Alternatives, please read [contributing.md](https://github.com/ChukwukaEze/nigerian-alternatives/blob/master/contribution.md)
 

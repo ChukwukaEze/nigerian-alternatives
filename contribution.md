@@ -6,7 +6,7 @@ Contribute to this project, using a pull request:
 
 Here are some guidelines for this:
 
-1. In the [products.json](/) file in the root folder, add JSON entry for the product you wish to be included on Nigerian Alternatives.
+1. In the [products.json](https://github.com/ChukwukaEze/nigerian-alternatives/blob/master/products.json) file in the root folder, add JSON entry for the product you wish to be included on Nigerian Alternatives.
 
 ### JSON Object
 

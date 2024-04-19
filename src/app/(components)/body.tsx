@@ -1,6 +1,7 @@
 import React from "react";
 import products from "../../../products.json";
 import { ProductCard } from "./product";
+import Link from "next/link";
 
 function Body() {
   return (
@@ -9,9 +10,15 @@ function Body() {
         NG Alternatives is an open source collection of Nigerian-built or
         Naira-priced Developer and Software Infrastructure.
       </h4>
-      <button className="bg-green text-white py-1 px-4 mt-8 rounded-md">
-        Contribute on Github
-      </button>
+      <div className="mt-8">
+        <Link
+          target="_blank"
+          href={"https://github.com/ChukwukaEze/nigerian-alternatives"}
+          className="bg-green text-white py-1 px-4 rounded-md hover:shadow-md"
+        >
+          Contribute on Github
+        </Link>
+      </div>
       <p className="block mt-10 text-[15px]">
         All products are priced in Nigerian Naira
       </p>

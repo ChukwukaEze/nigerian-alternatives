@@ -1,5 +1,6 @@
 import { testUrl } from "@/utils/funcs";
 import React, { HTMLAttributes } from "react";
+import Link from "next/link";
 
 interface IProduct extends HTMLAttributes<HTMLDivElement> {
   name: string;
@@ -31,13 +32,13 @@ export function ProductCard({
         <p className="text-[15px] truncated-text">{description}</p>
 
         {urlTest && (
-          <a
+          <Link
             href={url}
             target="_blank"
             className="absolute bg-green cursor-pointer text-white py-1 px-4 mt-8 rounded-md text-[15px] bottom-0"
           >
             Try Product
-          </a>
+          </Link>
         )}
       </div>
     </div>
