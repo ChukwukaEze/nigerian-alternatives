@@ -4,5 +4,17 @@
     "description": "ZeptoMail is a secure email service that is optimized to deliver your all-important transactional emails reliably.",
     "company": "Zoho",
     "url": "https://www.zoho.com/zeptomail/"
+  },
+  {
+    "name": "Nobus",
+    "description": "Nobus is a Native Public Cloud Platform.",
+    "company": "Nkponani Limited",
+    "url": "https://www.nobus.io/"
+  },
+  {
+    "name": "Go54",
+    "description": "Go54 is a one stop-shop for all resources necessary to scale your business online.",
+    "company": "Nkponani Limited",
+    "url": "https://www.nobus.io/"
   }
 ]

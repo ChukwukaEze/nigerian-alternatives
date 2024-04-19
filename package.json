@@ -1,5 +1,18 @@
 {
   "name": "nigerian-alternatives",
+  "description": "an open source collection of Naira priced Developer and Software Resources for scaling Nigeria-based businesses.",
+  "author": "Chukwuka Eze <dev@chukwuka.com.ng>",
+  "license": "ISC",
+  "keywords": [
+    "Naira",
+    "Nigeria",
+    "Nigerian",
+    "Nigerian Developers",
+    "Nigerian Products",
+    "NGN",
+    "Naija",
+    "9ja"
+  ],
   "version": "0.1.0",
   "private": true,
   "scripts": {
